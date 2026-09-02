@@ -1,0 +1,19 @@
+# Copy the values you need into Vercel → Project Settings → Environment
+# Variables. Never commit real secrets to this file or to git — this file
+# only documents which variables exist.
+
+# Required for the chat widget (api/chat.js). Get one free at
+# https://aistudio.google.com/apikey
+GEMINI_API_KEY=
+
+# Required for the contact form (api/contact.js). Get one free at
+# https://resend.com/api-keys
+RESEND_API_KEY=
+
+# Where contact-form messages are delivered.
+CONTACT_TO=saivarun1982@gmail.com
+
+# Resend's shared test sender can only deliver to the email address on your
+# own Resend account. Once you verify a domain in Resend, switch this to an
+# address on that domain (e.g. "Portfolio <hello@yourdomain.com>").
+MAIL_FROM=Portfolio Contact <onboarding@resend.dev>

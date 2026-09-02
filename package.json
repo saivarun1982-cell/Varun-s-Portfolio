@@ -1,0 +1,10 @@
+{
+  "name": "saivarun-portfolio",
+  "private": true,
+  "version": "1.2.0",
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@google/genai": "^2.19.0"
+  }
+}
